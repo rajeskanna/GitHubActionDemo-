@@ -30,7 +30,7 @@ jobs:
         uses: QAInsights/PerfAction@v5.6.2
         with:
           # JMeter test plan to execute
-           test-plan-path: './Datadog.jmx'
+           test-plan-path: './DatadogGrafanaInflux.jmx'
       - name: Upload Results
         uses: actions/upload-artifact@v3
         with:
