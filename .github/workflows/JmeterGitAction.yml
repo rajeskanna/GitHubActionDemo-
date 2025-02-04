@@ -31,8 +31,8 @@ jobs:
         with:
           # JMeter test plan to execute
           # test-plan-path: './DatadogGrafanaInflux.jmx'
-          # test-plan-path: './S02_DataSetConfig.jmx'
-            test-plan-path: './COSMOS_RushOrderNew.jmx'
+            test-plan-path: './S02_DataSetConfig.jmx'
+          #  test-plan-path: './COSMOS_RushOrderNew.jmx'
       - name: Upload Results
         uses: actions/upload-artifact@v3
         with:
